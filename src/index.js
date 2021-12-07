@@ -9,7 +9,7 @@ const App = () => {
   const decrementItem = () => setItem(item - 1);
   return (
     <div className="App">
-      <h1>Hello {item}</h1>
+      <h1>Hello number,, {item}!</h1>
       <h2>Start editing to see the magic happen!</h2>
       <button onClick={incrementItem}>Increment</button>
       <button onClick={decrementItem}>Decrement</button>
